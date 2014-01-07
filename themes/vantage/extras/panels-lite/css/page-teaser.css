@@ -1,0 +1,55 @@
+#so-panels-panels {
+	position: relative;
+	
+	border: 1px solid #CCC;
+	z-index: 9;
+}
+
+#so-panels-panels h3.hndle {
+	background: #eee;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e5e5e5), to(#f4f4f4));
+	background-image: -webkit-linear-gradient(bottom, #e5e5e5, #f4f4f4);
+	background-image: -moz-linear-gradient(bottom, #e5e5e5, #f4f4f4);
+	background-image: -o-linear-gradient(bottom, #e5e5e5, #f4f4f4);
+	background-image: linear-gradient(to top, #e5e5e5, #f4f4f4);
+	border-bottom: 1px solid #CCC;
+	padding: 4px 9px 4px 9px;
+}
+
+#so-panels-panels h3.hndle button {
+	background: #eee;
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#e3e3e3), to(#fff));
+	background-image: -webkit-linear-gradient(bottom, #e3e3e3, #fff);
+	background-image: -moz-linear-gradient(bottom, #e3e3e3, #fff);
+	background-image: -o-linear-gradient(bottom, #e3e3e3, #fff);
+	background-image: linear-gradient(to top, #e3e3e3, #fff);
+	border-color: #aaa;
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.06);
+	float: left;
+	margin-right: 2px;
+	padding: 7px 8px;
+}
+
+#so-panels-panels h3.hndle button:active {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#so-panels-panels h3.hndle button.preview {
+	float: right;
+}
+
+#so-panels-panels .inside {
+	padding: 5px 12px 5px 10px;
+}
+
+#wp-content-wrap.panels-active .switch-panels {
+	background: #f4f4f4;
+	border-color: #CCC #CCC #f4f4f4 #CCC;
+	color: #333;
+	z-index: 10;
+}
+

@@ -1,0 +1,166 @@
+#siteorigin-settings-tab-wrapper {
+	margin-bottom: 15px;
+}
+
+.colorpicker-wrapper {
+	position: relative;
+	
+}
+
+.colorpicker-wrapper .color-indicator {
+	width: 23px;
+	height: 23px;
+	
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.colorpicker-wrapper .farbtastic-container {
+	position: absolute;
+	top: 28px;
+	left: 0px;
+	
+	background: green;
+	background: #F8F8F8;
+	border: 1px solid #E0E0E0;
+	padding: 8px;
+	z-index: 2;
+}
+
+/* =Media Field 
+-------------------------------------------------------------- */
+
+.media-field-wrapper {
+	position: relative;
+	height: 32px;
+	
+	background: #f4f4f4;
+	background: -moz-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+	background: -o-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top, #f9f9f9 0%,#f2f2f2 100%);
+	background: linear-gradient(to bottom, #f9f9f9 0%,#f2f2f2 100%);
+	border: 1px solid #bbbbbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	display: block;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f2f2f2',GradientType=0 );
+	float: left;
+}
+
+.media-field-wrapper:hover {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 );
+}
+
+.media-field-wrapper > div {
+	height: 32px;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+.media-field-wrapper .current {
+	position: relative;
+	
+	border-right: 1px solid #bbb;
+	box-shadow: 1px 0 0 #FFF;
+	padding: 4px;
+}
+
+.media-field-wrapper .current .title {
+	position: absolute;
+	bottom: 34px;
+	left: 0;
+	width: auto;
+	
+	background: #333;
+	color: #CCC;
+	display: none;
+	font-weight: bold;
+	padding: 4px 12px;
+	white-space: nowrap;
+}
+
+.media-field-wrapper .thumbnail-wrapper {
+	width: 22px;
+	height: 22px;
+	
+	background: #cfcfcf;
+	background: -moz-linear-gradient(top, #cfcfcf 0%, #dbdbdb 50%, #d1d1d1 51%, #cccccc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfcfcf), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#cccccc));
+	background: -webkit-linear-gradient(top, #cfcfcf 0%,#dbdbdb 50%,#d1d1d1 51%,#cccccc 100%);
+	background: -o-linear-gradient(top, #cfcfcf 0%,#dbdbdb 50%,#d1d1d1 51%,#cccccc 100%);
+	background: -ms-linear-gradient(top, #cfcfcf 0%,#dbdbdb 50%,#d1d1d1 51%,#cccccc 100%);
+	background: linear-gradient(to bottom, #cfcfcf 0%,#dbdbdb 50%,#d1d1d1 51%,#cccccc 100%);
+	border: 1px solid #999;
+	box-shadow: 0px 1px 1px #FFF;
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfcfcf', endColorstr='#cccccc',GradientType=0 );
+	line-height: 0;
+}
+
+.media-field-wrapper .thumbnail-wrapper img {
+	width: 100%;
+	height: 100%;
+	
+	box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.media-field-wrapper .media-upload-button {
+	color: #666;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 600;
+	outline: none;
+	padding: 7px 8px 7px 6px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #FFF;
+}
+
+.media-field-wrapper:hover .media-upload-button {
+	color: #707070;
+}
+
+.media-remove-button {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	
+	color: #AAA;
+	display: none;
+	font-size: 11px;
+	padding: 6px 0 6px 8px;
+	text-decoration: none;
+}
+
+.media-remove-button:hover {
+	color: #BC0B0B;
+}
+
+#siteorigin-theme-feature-suggestions {
+	color: #999999;
+	display: inline-block;
+	font-size: 0.85em;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+#siteorigin-theme-feature-suggestions:hover {
+	color: #666666;
+}
+

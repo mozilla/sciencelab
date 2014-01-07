@@ -1,0 +1,134 @@
+/*
+ Theme Name:     Vantage Child
+ Theme URI:      http://siteorigin.com/
+ Description:    Vantage Theme Child Theme
+ Author:         S.Ng 
+ Author URI:     n/a
+ Template:       vantage
+ Version:        1.1.2
+*/
+
+@import url("../vantage/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+header#masthead hgroup {
+    position: relative;
+    padding-bottom: 15px; /*changed*/
+    padding-top: 0px; /*changed*/
+}
+
+header#masthead hgroup .logo img {
+    display: block;
+    padding-top: 15px; /*changed*/
+}
+
+.main-navigation {
+    position: relative;
+    background: none repeat scroll 0% 0% #c9e3f6; /*changed - baby blue*/
+    font-size: 13px;
+    margin: 0px -35px;
+}
+
+.main-navigation a {
+    color: #475660; /*changed - denim blue*/
+    display: block;
+    font-weight: normal; /*changed*/
+    text-decoration: none;
+}
+
+.main-navigation ul li a {
+    -moz-box-sizing: border-box;
+    padding: 15px 35px; /*changed*/
+}
+
+.main-navigation ul li:hover > a {
+	background: #79c2f2; /*changed - dark baby blue*/
+	color: #FFFFFF;
+}
+
+
+#search-icon #search-icon-icon {
+    position: relative;
+    width: 59px;
+    height: 100%;
+    background-color: #E8F3F7; /*changed - light baby blue*/
+    -moz-box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+}
+
+#search-icon #search-icon-icon:hover {
+background-color: #79c2f2; /*changed - dark baby blue*/
+}
+
+#search-icon .searchform input[name="s"] {
+    width: 100%;
+    height: 42px;
+    background: none repeat scroll 0% 0% #475660; /*changed - denim blue*/
+    border: medium none;
+    border-radius: 0px;
+    -moz-box-sizing: border-box;
+    color: #c9e3f6; /*changed - baby blue*/
+    display: block;
+    font-size: 17px;
+    font-weight: 200;
+    outline: medium none;
+    padding: 0px 15px;
+}
+
+body, button, input, select, textarea {
+    color: #ef4036; /*changed - red*/
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; /*changed*/
+    font-size: 13px;
+    line-height: 1.5em; 
+    word-wrap: break-word;
+}
+
+.widget_circleicon-widget .circle-icon-box .circle-icon {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(71, 86, 96); /*changed - denim blue*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 130px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+.entry-content img {
+    height: auto;
+    border-radius: 0px; /*changed*/
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); /*changed*/
+    max-width: 100%;
+    float: left; /*changed*/
+}
+
+#colophon {
+    background: none repeat scroll 0% 0% rgb(239, 64, 54); /*changed - red*/
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+body.layout-full {
+	background-color: rgb(239, 64, 54); /*changed - red*/ /* Use the same color as the footer */ 
+}
+
+#footer-widgets .widget a {
+    color: rgb(255, 226, 105); /*changed - light orange*/
+}
+
+#colophon #theme-attribution, #colophon #site-info {
+    color: rgb(255, 255, 255); /*changed - white*/
+    font-size: 11.5px;
+    text-align: center;
+}
+
+#colophon #theme-attribution a, #colophon #site-info a {
+    color: rgb(255, 226, 105); /*changed - light orange*/
+    font-weight: 500;
+    text-decoration: none;
+}

@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: metaslider\n"
+"POT-Creation-Date: 2013-10-10 15:45-0000\n"
+"PO-Revision-Date: 2013-10-10 15:45-0000\n"
+"Last-Translator: FB-graphiklab.com <referencement@fb-graphiklab.com>\n"
+"Language-Team: www.fb-graphiklab.com\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../ml-slider.php:93
+msgid "Go Pro"
+msgstr "Passer Pro"
+
+#: ../ml-slider.php:144
+msgid "Image"
+msgstr "Image"
+
+#: ../ml-slider.php:145
+msgid "Add to slider"
+msgstr "Ajouter au diaporama"
+
+#: ../ml-slider.php:164
+msgid "More Slide Types"
+msgstr "Autres types de diapositive"
+
+#: ../ml-slider.php:213 ../inc/slide/metaslide.image.class.php:62
+msgid "URL"
+msgstr "URL"
+
+#: ../ml-slider.php:214 ../inc/slide/metaslide.image.class.php:60
+msgid "Caption"
+msgstr "Légende"
+
+#: ../ml-slider.php:215 ../inc/slide/metaslide.image.class.php:61
+msgid "New Window"
+msgstr "Nouvelle fenêtre"
+
+#: ../ml-slider.php:216
+msgid "Are you sure?"
+msgstr "Êtes vous sûr ?"
+
+#: ../ml-slider.php:219
+msgid ""
+"Caution: This setting is for advanced developers only. If you're unsure, "
+"leave it checked."
+msgstr ""
+
+#: ../ml-slider.php:256
+msgid "Upgrade to Pro $19"
+msgstr ""
+
+#: ../ml-slider.php:272
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../ml-slider.php:393
+msgid "New Slider"
+msgstr "Nouveau diaporama"
+
+#: ../ml-slider.php:486
+msgid "Version"
+msgstr "Version"
+
+#: ../ml-slider.php:487
+msgid "Responsive"
+msgstr "Responsive"
+
+#: ../ml-slider.php:488 ../ml-slider.php:492
+msgid "Yes"
+msgstr "Oui"
+
+#: ../ml-slider.php:488 ../ml-slider.php:492
+msgid "No"
+msgstr "Non"
+
+#: ../ml-slider.php:490 ../ml-slider.php:633
+msgid "Size"
+msgstr "Taille"
+
+#: ../ml-slider.php:490
+msgid "kb"
+msgstr "kb"
+
+#: ../ml-slider.php:491
+msgid "Mobile Friendly"
+msgstr "Compatible Mobiles"
+
+#: ../ml-slider.php:519
+msgid "New slideshow created. Click 'Add Slide' to get started!"
+msgstr ""
+
+#: ../ml-slider.php:536
+msgid "or"
+msgstr ""
+
+#: ../ml-slider.php:537
+#, fuzzy
+msgid "Add New Slideshow"
+msgstr "Ajouter une diapositive"
+
+#: ../ml-slider.php:553
+#, fuzzy
+msgid "Create your first slideshow"
+msgstr "Alignement central du diaporama"
+
+#: ../ml-slider.php:570
+msgid "Slides"
+msgstr "Diapositives"
+
+#: ../ml-slider.php:573 ../ml-slider.php:574
+msgid "Add Slide"
+msgstr "Ajouter une diapositive"
+
+#: ../ml-slider.php:593
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ../ml-slider.php:594
+msgid "Save"
+msgstr "Sauver"
+
+#: ../ml-slider.php:595
+msgid "Save & Preview"
+msgstr "Sauver & Prévisualiser"
+
+#: ../ml-slider.php:623
+msgid "Slideshow title"
+msgstr ""
+
+#: ../ml-slider.php:624
+msgid "Title"
+msgstr ""
+
+#: ../ml-slider.php:632
+msgid "Set the initial size for the slides (width x height)"
+msgstr "Définissez la taille initiale des diapositives (largeur x hauteur)"
+
+#: ../ml-slider.php:633
+msgid "px"
+msgstr ""
+
+#: ../ml-slider.php:637
+msgid "Width"
+msgstr "Largeur"
+
+#: ../ml-slider.php:640
+msgid "Height"
+msgstr "Hauteur"
+
+#: ../ml-slider.php:645
+msgid "Slide transition effect"
+msgstr "Effet de transition des diapositives"
+
+#: ../ml-slider.php:646
+msgid "Effect"
+msgstr "Effet"
+
+#: ../ml-slider.php:650 ../ml-slider.php:760
+msgid "Random"
+msgstr "Aléatoire"
+
+#: ../ml-slider.php:651
+msgid "Swirl"
+msgstr ""
+
+#: ../ml-slider.php:652
+msgid "Rain"
+msgstr ""
+
+#: ../ml-slider.php:653
+msgid "Straight"
+msgstr ""
+
+#: ../ml-slider.php:654
+#, fuzzy
+msgid "Slide Down"
+msgstr "Sens du défilement"
+
+#: ../ml-slider.php:655
+msgid "Slice Up"
+msgstr ""
+
+#: ../ml-slider.php:656
+msgid "Slide Up Left"
+msgstr ""
+
+#: ../ml-slider.php:657
+msgid "Slice Up Down"
+msgstr ""
+
+#: ../ml-slider.php:658
+msgid "Slide Up Down Left"
+msgstr ""
+
+#: ../ml-slider.php:659
+msgid "Fold"
+msgstr ""
+
+#: ../ml-slider.php:660
+msgid "Fade"
+msgstr ""
+
+#: ../ml-slider.php:661
+msgid "Slide In Right"
+msgstr ""
+
+#: ../ml-slider.php:662
+#, fuzzy
+msgid "Slide In Left"
+msgstr "Effet de transition des diapositives"
+
+#: ../ml-slider.php:663
+#, fuzzy
+msgid "Box Random"
+msgstr "Aléatoire"
+
+#: ../ml-slider.php:664
+msgid "Box Rain"
+msgstr ""
+
+#: ../ml-slider.php:665
+#, fuzzy
+msgid "Box Rain Reverse"
+msgstr "Inverser"
+
+#: ../ml-slider.php:666
+msgid "Box Rain Grow Reverse"
+msgstr ""
+
+#: ../ml-slider.php:667
+#, fuzzy
+msgid "Slide"
+msgstr "Diapositives"
+
+#: ../ml-slider.php:672
+msgid "Change the slider style"
+msgstr "Changer le style du diaporama"
+
+#: ../ml-slider.php:673
+msgid "Theme"
+msgstr "Thème"
+
+#: ../ml-slider.php:694
+msgid "Controls"
+msgstr "Contrôles"
+
+#: ../ml-slider.php:697 ../ml-slider.php:711
+msgid "Show slide navigation row"
+msgstr "Montrer la rangée de navigation du diaporama"
+
+#: ../ml-slider.php:698
+msgid "Arrows"
+msgstr ""
+
+#: ../ml-slider.php:712
+msgid "Navigation"
+msgstr ""
+
+#: ../ml-slider.php:715
+msgid "Hidden"
+msgstr ""
+
+#: ../ml-slider.php:716
+msgid "Dots"
+msgstr ""
+
+#: ../ml-slider.php:717
+msgid "Thumbnails (Pro)"
+msgstr ""
+
+#: ../ml-slider.php:724
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: ../ml-slider.php:727
+msgid "Center align the slideshow"
+msgstr "Alignement central du diaporama"
+
+#: ../ml-slider.php:728
+msgid "Center align"
+msgstr "Alignement central"
+
+#: ../ml-slider.php:735
+msgid "Start the slideshow on page load"
+msgstr "Démarrer le diaporama au chargement de la page"
+
+#: ../ml-slider.php:736
+msgid "Auto play"
+msgstr "Lecture auto"
+
+#: ../ml-slider.php:743
+msgid ""
+"Smart Crop ensures your responsive slides are cropped to a ratio that "
+"results in a consistent slideshow size"
+msgstr ""
+"Cadrage intelligent veille à ce que les diapositives \"responsives\" soient "
+"recadrés à un ratio qui aboutit à une taille compatible avec celle du "
+"diaporama"
+
+#: ../ml-slider.php:744
+msgid "Smart crop"
+msgstr "Cadrage intelligent"
+
+#: ../ml-slider.php:751
+msgid ""
+"Display as carousel - when selected the effect and direction options will be "
+"ignored."
+msgstr ""
+"Afficher sous forme de carrousel - lorsque sélectionné l'effet et les "
+"options de direction seront ignorées."
+
+#: ../ml-slider.php:752
+msgid "Carousel mode"
+msgstr "Mode carrousel"
+
+#: ../ml-slider.php:759
+msgid "Randomise the order of the slides"
+msgstr "Aléatorisation de l'ordre des diapositives"
+
+#: ../ml-slider.php:767
+msgid ""
+"Pause the slideshow when hovering over slider, then resume when no longer "
+"hovering"
+msgstr ""
+"Mettre le diaporama en pause au survol, puis reprendre lorsqu'il ne l'est "
+"plus"
+
+#: ../ml-slider.php:768
+msgid "Hover pause"
+msgstr "Pause au survol"
+
+#: ../ml-slider.php:775
+msgid "Reverse the animation direction"
+msgstr "Inverser le sens de l'animation"
+
+#: ../ml-slider.php:776
+msgid "Reverse"
+msgstr "Inverser"
+
+#: ../ml-slider.php:783
+msgid "How long to display each slide, in milliseconds"
+msgstr "Durée d'affichage de chaque diapositive, en millisecondes"
+
+#: ../ml-slider.php:784
+msgid "Slide delay"
+msgstr "Délai entre les diapositives"
+
+#: ../ml-slider.php:784 ../ml-slider.php:792 ../ml-slider.php:871
+#: ../ml-slider.php:887
+msgid "ms"
+msgstr "ms"
+
+#: ../ml-slider.php:791
+msgid "Set the speed of animations, in milliseconds"
+msgstr "Définir la vitesse des animations, en millisecondes"
+
+#: ../ml-slider.php:792
+msgid "Animation speed"
+msgstr "Vitesse d'animation"
+
+#: ../ml-slider.php:799
+msgid "Number of squares (width x height)"
+msgstr "Nombre de carrés (largeur x hauteur)"
+
+#: ../ml-slider.php:800
+msgid "Number of squares"
+msgstr "Nombre de carrés"
+
+#: ../ml-slider.php:808 ../ml-slider.php:809
+msgid "Number of slices"
+msgstr "Nombre de tranches"
+
+#: ../ml-slider.php:816
+msgid "Select the sliding direction"
+msgstr "Choisissez le sens du défilement"
+
+#: ../ml-slider.php:816
+msgid "Slide direction"
+msgstr "Sens du défilement"
+
+#: ../ml-slider.php:819
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: ../ml-slider.php:820
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ../ml-slider.php:825
+msgid "Animation easing effect"
+msgstr "Effet \"easing\" de l'animation"
+
+#: ../ml-slider.php:826
+msgid "Easing"
+msgstr "Easing"
+
+#: ../ml-slider.php:854
+msgid "Set the text for the 'previous' direction item"
+msgstr "Définir le texte pour l'élément de direction «précédent»"
+
+#: ../ml-slider.php:855
+msgid "Previous text"
+msgstr "Précédent"
+
+#: ../ml-slider.php:862
+msgid "Set the text for the 'next' direction item"
+msgstr "Définir le texte pour l'élément de direction «suivant»"
+
+#: ../ml-slider.php:863
+msgid "Next text"
+msgstr "Suivant"
+
+#: ../ml-slider.php:870
+msgid "Delay beetwen squares in ms"
+msgstr "Délai entre les carrés en millisecondes"
+
+#: ../ml-slider.php:871
+msgid "Square delay"
+msgstr "Délai entre les carrés"
+
+#: ../ml-slider.php:878
+msgid "Opacity of title and navigation"
+msgstr "Opacité du titre et de la navigation"
+
+#: ../ml-slider.php:879
+msgid "Opacity"
+msgstr "Opacité"
+
+#: ../ml-slider.php:886
+#, fuzzy
+msgid "Set the fade in speed of the caption"
+msgstr "Régler le fondu de la vitesse de la légende"
+
+#: ../ml-slider.php:887
+msgid "Caption speed"
+msgstr "Vitesse de la légende"
+
+#: ../ml-slider.php:894
+msgid "Developer Options"
+msgstr "Options pour les développeurs"
+
+#: ../ml-slider.php:897
+msgid ""
+"Specify any custom CSS Classes you would like to be added to the slider "
+"wrapper"
+msgstr ""
+"Spécifiez des classes CSS personnalisés que vous souhaitez ajouter à "
+"l'enveloppe (wrapper) du diaporama"
+
+#: ../ml-slider.php:898
+msgid "CSS classes"
+msgstr "Classes CSS"
+
+#: ../ml-slider.php:905
+msgid "Uncheck this is you would like to include your own CSS"
+msgstr "Décochez ceci si vous souhaitez inclure votre propre CSS"
+
+#: ../ml-slider.php:906
+msgid "Print CSS"
+msgstr "Imprimer CSS"
+
+#: ../ml-slider.php:913
+msgid "Uncheck this is you would like to include your own Javascript"
+msgstr "Décochez ceci si vous souhaitez inclure votre propre Javascript"
+
+#: ../ml-slider.php:914
+msgid "Print JS"
+msgstr "Imprimer JS"
+
+#: ../ml-slider.php:922
+msgid "Delete Slider"
+msgstr "Effacer diaporama"
+
+#: ../ml-slider.php:931
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../ml-slider.php:937
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../ml-slider.php:943
+msgid "Template Include"
+msgstr "Inclusion template"
+
+#: ../inc/metaslider.widget.class.php:14
+msgid "Meta Slider"
+msgstr "Meta Slider"
+
+#: ../inc/metaslider.widget.class.php:107
+msgid "Title:"
+msgstr ""
+
+#: ../inc/metaslider.widget.class.php:110
+msgid "Select Slider:"
+msgstr ""
+
+#: ../inc/metaslider.widget.class.php:120
+msgid "No slideshows found"
+msgstr ""
+
+#~ msgid "Support Meta Slider"
+#~ msgstr "Soutenir Meta Slider"

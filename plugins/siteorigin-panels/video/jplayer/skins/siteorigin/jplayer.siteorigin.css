@@ -1,0 +1,178 @@
+/* @override 
+	http://wpdev.dynalias.com/focus/wp-content/themes/focus/jplayer/skins/siteorigin/jplayer.siteorigin.css?ver=3.5 */
+
+.jp-audio,
+.jp-audio-stream,
+.jp-video {
+	position: relative;
+	
+}
+
+.jp-video .jp-type-single {
+}
+
+/* =GUI 
+-------------------------------------------------------------- */
+
+.jp-video .jp-gui {
+	position: relative;
+	height: 60px;
+	
+	margin-top: -60px;
+	opacity: 0.85;
+	overflow: hidden;
+}
+
+.jp-video .jp-gui .jp-controls {
+	display: block;
+	list-style: none;
+	margin: 0;
+}
+
+.jp-video .jp-gui .jp-controls a {
+	position: absolute;
+	
+	display: block;
+	overflow: hidden;
+	text-indent: -9999px;
+}
+
+.jp-video .jp-gui .jp-controls .jp-play,
+.jp-video .jp-gui .jp-controls .jp-pause {
+	top: 10px;
+	left: 15px;
+	width: 55px;
+	height: 35px;
+	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+	margin: 0 !important;
+	overflow: hidden;
+}
+
+.jp-video .jp-gui .jp-controls .jp-play {
+	background: rgba(0,0,0,0.8) url('sprites/play.png') center center no-repeat;
+}
+
+.jp-video .jp-gui .jp-controls .jp-pause {
+	background: rgba(0,0,0,0.8) url('sprites/pause.png') center center no-repeat;
+}
+
+/* =Progress Bar 
+-------------------------------------------------------------- */
+
+.jp-video .jp-progress-wrapper {
+	width: auto;
+	
+	display: block;
+	margin: 0px 65px 0 90px;
+	padding-top: 10px;
+}
+
+.jp-video .jp-progress {
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 3px;
+	margin-top: 13px;
+}
+
+.jp-video .jp-progress .jp-seek-bar {
+	height: 10px;
+	
+	background: rgba(34,34,34,0.34);
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.jp-video .jp-progress .jp-play-bar {
+	position: relative;
+	height: 10px;
+	
+	background: #3fabe9;
+	border-radius: 3px;
+}
+
+.jp-video .jp-time-info {
+	position: absolute;
+	right: -21px;
+	bottom: 15px;
+	width: 40px;
+	
+	background-color: rgba(0,0,0,0.8);
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #777777;
+	font: 11px/1 Arial, sans-serif;
+	padding: 3px 2px;
+	text-align: center;
+}
+
+.jp-video .jp-time-info .jp-time-info-pointer {
+	position: absolute;
+	bottom: -4px;
+	left: 50%;
+	width: 7px;
+	height: 4px;
+	
+	background: url("sprites/time-pointer.png") no-repeat;
+	margin-left: -3.5px;
+}
+
+.jp-video .jp-time-info > div {
+	display: inline;
+}
+
+.jp-video .jp-full-screen,
+.jp-video .jp-restore-screen {
+	top: 19px;
+	right: 25px;
+	width: 18px;
+	height: 18px;
+	
+	background: url('sprites/expand.png') center center no-repeat;
+	background-color: #222222;
+	background-color: rgba(0,0,0,0.8);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: block;
+}
+
+.jp-video .jp-restore-screen {
+	background: url('sprites/restore.png') no-repeat center center no-repeat;
+	background-color: #222222;
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* =Full Screen 
+-------------------------------------------------------------- */
+
+.jp-video-full .jp-jplayer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	background: #000000;
+	z-index: 100000; /* One higher than the WordPress admin bar */ 
+}
+
+.jp-video-full .jp-gui {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	
+	z-index: 100001; /* One higher than the video player */ 
+}
+
+.jp-video .jp-play-initial {
+	display: none !important;
+}
+

@@ -1,0 +1,13 @@
+.widget-dialog-wp_widget_black_studio_tinymce .editor_media_buttons {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.widget-dialog-wp_widget_black_studio_tinymce p:first-of-type {
+	margin-top: 0 !important;
+}
+
+.widget-dialog-wp_widget_black_studio_tinymce .editor_toggle_buttons a {
+	margin-top: 5px !important;
+}
+

@@ -1,0 +1,26 @@
+.minitweets a.bird {
+	display: block;
+	background-image: url(https://abs.twimg.com/a/1371147400/t1/img/twitter_web_sprite_icons.png);
+	background-position: -110px 0;
+	background-repeat: no-repeat;
+	width: 34px;
+	height: 26px;
+	margin: 5px auto;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.minitweets {
+	float:left;
+}
+
+.minitweets-end {
+	margin-top: -10px;
+	margin-bottom: 20px;
+	padding-top:10px;
+	border: 1px solid #e8e8e8;
+	border-top:none;
+	border-radius: 0 0 6px 6px;
+	background: #fff;
+}
