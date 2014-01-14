@@ -16,18 +16,18 @@
 
 
 	/**
-	 * Register Extra Info (column to the right of Twitter Feed) and widgetized areas.
+	 * Register blog post and widgetized areas.
 	 *
 	 */
-	function extra_info_widgets_init() {
+	function blog_sidebar_widgets_init() {
 	  register_sidebar( array(
-	    'name' => 'Extra Info Section',
-	    'id' => 'extra-info-widget',
-	    'before_widget' => '<div class="extra-info-widget">mavis',
+	    'name' => 'Blog Sitebar Section',
+	    'id' => 'blog-sitebar-widget',
+	    'before_widget' => '<div id="blog-sitebar-widget">',
 	    'after_widget' => '</div>'
 	  ) );
 	}
-	add_action( 'widgets_init', 'extra_info_widgets_init' );
+	add_action( 'widgets_init', 'blog_sidebar_widgets_init' );
 
 ?>
 

@@ -199,3 +199,28 @@ body.layout-full {
 #supported-by img{
     float: left;
 }
+
+#content.blog{
+    width: 80%;
+    float: left;
+}
+
+#blog-sitebar-widget{
+    float: left;
+    margin-left: 20px;
+}
+
+#blog-sitebar-widget .widgettitle{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#blog-sitebar-widget ul{
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#blog-sitebar-widget a{
+    text-decoration: none;
+}
