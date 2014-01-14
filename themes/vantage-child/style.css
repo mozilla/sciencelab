@@ -79,7 +79,6 @@ background-color: #79c2f2; /*changed - dark baby blue*/
 }
 
 body, button, input, select, textarea {
-    color: #ef4036; /*changed - red*/
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; /*changed*/
     font-size: 13px;
     line-height: 1.5em; 
@@ -131,4 +130,72 @@ body.layout-full {
     color: rgb(255, 226, 105); /*changed - light orange*/
     font-weight: 500;
     text-decoration: none;
+}
+
+#header-container{
+    background: none repeat scroll 0% 0% rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: 1px solid rgb(221, 221, 221);
+    margin: 0px -1000px;
+    padding: 25px 1000px;
+}
+
+#three-circle-block{
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+#three-circle-block section{
+    float: left;
+    width: 33.333%;
+    padding-top: 75px;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    position: relative;
+}
+
+#three-circle-block .tag{
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.circle-container {
+    background: rgba(71,86,96,1);
+    width: 65px;
+    height: 65px;
+    border-radius: 130px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -32.5px;
+}
+
+.circle-container div[class^="icon"]{
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+.two-column{
+    float: left;
+    width: 50%;
+    margin: 50px 0;
+}
+
+#extra-info h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#extra-info section{
+    margin-bottom: 60px;
+}
+
+#supported-by img{
+    float: left;
 }
