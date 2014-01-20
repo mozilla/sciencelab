@@ -29,5 +29,3 @@
 	}
 	add_action( 'widgets_init', 'blog_sidebar_widgets_init' );
 
-?>
-
