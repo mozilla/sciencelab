@@ -29,6 +29,9 @@ function vantage_content_nav( $nav_id ) {
 	if ( $wp_query->max_num_pages < 2 && ( is_home() || is_archive() || is_search() ) )
 		return;
 
+	// Add the shorten title filter
+	add_filter('the_title', 'vantage_content_nav_shorten_title');
+
 	$nav_class = 'site-navigation paging-navigation';
 	if ( is_single() )
 		$nav_class = 'site-navigation post-navigation';
@@ -52,8 +55,25 @@ function vantage_content_nav( $nav_id ) {
 
 	</nav><!-- #<?php echo esc_html( $nav_id ); ?> -->
 	<?php
+
+	// Remove the shorten title filter
+	remove_filter('the_title', 'vantage_content_nav_shorten_title');
 }
 endif; // vantage_content_nav
+
+/**
+ * Filter the title to shorten it. This is used by vantage_content_nav function.
+ *
+ * @param $title
+ * @return string
+ */
+function vantage_content_nav_shorten_title($title){
+	if(strlen($title) > 40) {
+		$title = wp_trim_words($title, 5);
+	}
+
+	return $title;
+}
 
 if ( ! function_exists( 'vantage_comment' ) ) :
 /**
@@ -167,16 +187,25 @@ function vantage_display_logo(){
 			'src' => $src,
 			'width' => round($width),
 			'height' => round($height),
+			'alt' => sprintf( __('%s Logo', 'vantage'), get_bloginfo('name') ),
 		) );
+
+		if($logo_attributes['width'] > vantage_get_site_width()) {
+			// Don't let the width be more than the site width.
+			$width = vantage_get_site_width();
+			$logo_attributes['height'] = round($logo_attributes['height'] / ($logo_attributes['width'] / $width));
+			$logo_attributes['width'] = $width;
+		}
 
 		$logo_attributes_str = array();
 		if( !empty( $logo_attributes ) ) {
 			foreach($logo_attributes as $name => $val) {
 				if( empty($val) ) continue;
-				$logo_attributes_str[] = $name.'="'.esc_attr($val).'"';
+				$logo_attributes_str[] = $name.'="'.esc_attr($val).'" ';
 			}
 		}
-		$logo_html = apply_filters('vantage_logo_image', '<img '.implode($logo_attributes_str).' />');
+
+		$logo_html = apply_filters('vantage_logo_image', '<img '.implode( ' ', $logo_attributes_str ).' />');
 	}
 
 	// Echo the image
@@ -215,6 +244,7 @@ function vantage_category_transient_flusher() {
 add_action( 'edit_category', 'vantage_category_transient_flusher' );
 add_action( 'save_post', 'vantage_category_transient_flusher' );
 
+if( !function_exists( 'vantage_get_archive_title' ) ) :
 /**
  * Return the archive title depending on which page is being displayed.
  * 
@@ -254,6 +284,7 @@ function vantage_get_archive_title(){
 	
 	return apply_filters('vantage_archive_title', $title);
 }
+endif;
 
 /**
  * Get the post meta.
@@ -344,6 +375,7 @@ function vantage_next_attachment_url($post = null){
 	return $next_attachment_url;
 }
 
+if( !function_exists( 'vantage_pagination' ) ) :
 /**
  * Display the pagination
  *
@@ -366,13 +398,14 @@ function vantage_pagination($pages = '', $range = 2) {
 
 	if(1 != $pages) {
 		echo "<div class='pagination'>";
-		echo paginate_links(array(
+		echo paginate_links( array(
 			'total' => $pages,
 			'current' => $paged,
 			'mid_size' => $showitems,
-			'format' => $wp_rewrite->permalink_structure == '' ? ( strpos(get_pagenum_link(false), '?') === false ? '?paged=%#%' : '&paged=%#%' ) : 'page/%#%/',
+			'format' => ( $wp_rewrite->permalink_structure == '' || is_search() ) ? ( strpos(get_pagenum_link(false), '?') === false ? '?paged=%#%' : '&paged=%#%' ) : '/page/%#%/',
 			'base' => get_pagenum_link(false).'%_%',
-		));
+		) );
 		echo "</div>\n";
 	}
 }
+endif;
